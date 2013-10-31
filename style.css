@@ -1,0 +1,258 @@
+::selection {
+    background:#3e4349;
+    color:#fff;
+}
+body{
+    overflow: auto; /*Needed to eliminate scrollbars*/
+    background: transparent;
+    color: #000;
+    font-family: 'Montserrat', 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    list-style-type: none;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+div{
+    display: block;
+}
+
+img{
+    border: none;
+    cursor: default;
+}
+
+a{
+    color: #fff;
+}
+
+
+/******************************* index page **********************/
+
+.wrapper{
+    width:965px;
+    margin: auto;
+    color: #3e4349;
+}
+
+.row {
+    padding-top: 78px;
+    padding-bottom: 78px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 58px;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.intro {
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 1.45;
+    margin-bottom: 35px;
+}
+
+.intro a{
+    color: #fec400;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 1.45;
+    margin-bottom: 35px;
+    text-decoration: none;
+}
+
+.intro a:hover{
+    color: #3e4349;
+    text-decoration: underline;
+}
+
+
+.yellow-text {
+    color: #fec400;
+}
+
+.content {
+    background: url(images/Backgrounds/panoramic.jpg) no-repeat;
+    background-position:center;
+    background-size: 100%;
+}
+
+
+.content a {
+    width: 200px;
+    color: fff;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 20px 30px;
+    display: inline-block;
+    transition: all ease 0.3s;
+    margin-top: 280px;
+    margin-bottom: 120px;
+}
+
+
+.content a:hover{
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+    cursor: auto;
+}
+
+.content a:visited{
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+    cursor: auto;
+}
+
+.finalmessage {
+    margin-bottom: 40px;
+    font-size: 58px;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    color: #3e4349;
+}
+
+#contacts{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+#contacts a {
+    width:965px;
+    color: #3e4349;
+    opacity: 1;
+    text-decoration: none;
+}
+
+#contacts a:hover{
+    text-transform: underline;
+    color: #fec400;
+}
+
+#facebook{
+    display: block;
+    margin-top: -30px;
+    margin-bottom:  30px;
+}
+
+#footer{
+    color: #3e4349;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+/******************************* portfolio page **********************/
+
+#works{
+    width:965px;
+}
+
+#work1{
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 58px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+#works h1{
+    float: left;
+    font-size: 28px;
+    letter-spacing: -1px;
+    line-height: 1.45;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#works h2{
+    float: left;
+    color: #fec400;
+    font-size: 28px;
+    letter-spacing: -1px;
+    line-height: 1.45;
+    margin-bottom: 20px;
+}
+
+#works h3{
+    clear: both;
+    float: left;
+    color: #939aa2;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#works h4{
+    float: left;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#works img{
+    width: 100%;
+    display: inline-block;
+}
+
+#works #description{
+    clear: both;
+    float: left;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#work1 #info h4{
+    clear: both;
+    margin-top: -65px;
+    color: #939aa2;
+}
+
+#work1 #info a{
+    text-decoration: none;
+    color: #fec400;
+}
+
+#work1 #info a:hover{
+    color: #3e4349;
+    text-decoration: underline;
+}
